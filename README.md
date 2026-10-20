@@ -84,7 +84,7 @@
 10. [10. Project Management, Risks, and Git Protocol](docs/10_risks_and_management.md)
 11. [11. Supervisor Feedback](docs/11_supervisor_feedback.md)
 
-- **YouTrack Project**: [DIP: GBI-UHI-Astana](https://astanait.myjetbrains.com/youtrack/projects/DIP) *(Задачи DIP-01 ... DIP-14)*
+- **YouTrack Project**: [DIP: GBI-UHI-Astana](https://YOUR-INSTANCE.youtrack.cloud/projects/DIP) *(Задачи DIP-01 ... DIP-14 — обновить ссылку после создания проекта)*
 - **Wireframes & Prototype**: см. [docs/08_prototype/](docs/08_prototype/) *(UX-сценарии и мокапы интерфейса)*
 
 ---
@@ -98,8 +98,8 @@
 ### Установка зависимостей
 ```bash
 # Клонирование репозитория
-git clone https://github.com/hulahup4ikk/gbi-uhi-astana.git
-cd gbi-uhi-astana
+git clone https://github.com/hulahup4ikk/intelligent-gis-astana.git
+cd intelligent-gis-astana
 
 # Создание и активация виртуального окружения
 python -m venv venv
