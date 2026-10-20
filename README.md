@@ -85,7 +85,7 @@
 11. [11. Supervisor Feedback](docs/11_supervisor_feedback.md)
 
 - **YouTrack Project**: [DIP: GBI-UHI-Astana](https://astanait.myjetbrains.com/youtrack/projects/DIP) *(Задачи DIP-01 ... DIP-14)*
-- **Figma Wireframes**: [Interactive GIS Dashboard Mockups](https://www.figma.com/) *(доступ по запросу)*
+- **Wireframes & Prototype**: см. [docs/08_prototype/](docs/08_prototype/) *(UX-сценарии и мокапы интерфейса)*
 
 ---
 
@@ -98,8 +98,8 @@
 ### Установка зависимостей
 ```bash
 # Клонирование репозитория
-git clone https://github.com/<your-username>/diploma.git
-cd diploma
+git clone https://github.com/hulahup4ikk/gbi-uhi-astana.git
+cd gbi-uhi-astana
 
 # Создание и активация виртуального окружения
 python -m venv venv
