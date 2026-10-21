@@ -41,6 +41,7 @@ venv.bak/
 secrets.json
 
 # IDE & Editors
+.agents/
 .idea/
 .vscode/
 *.swp

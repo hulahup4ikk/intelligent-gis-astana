@@ -3,7 +3,6 @@
 ## 1. Project Title
 **Development of an Intelligent Geographic Information System for Graph-Based Analysis, Forecasting, and Optimization of Green-Blue Infrastructure to Mitigate the Urban Heat Island Effect in Astana**
 
-*(Разработка интеллектуальной геоинформационной системы на основе графового анализа, прогнозирования и оптимизации зелено-голубой инфраструктуры для снижения эффекта городского острова тепла в Астане)*
 
 ---
 
@@ -26,7 +25,7 @@ Current municipal planning in Astana lacks automated, data-driven decision suppo
 ---
 
 ## 4. Target Users
-1. **Astana Urban Planning & Land Management Authorities (Управление архитектуры и градостроительства г. Астаны)**: specialists responsible for master plan zoning, green space quotas, and district renovation.
+1. **Astana Urban Planning & Land Management Authorities**: specialists responsible for master plan zoning, green space quotas, and district renovation.
 2. **Department of Ecology and Environment of Astana**: environmental auditors monitoring thermal anomalies and vegetation health.
 3. **Landscape Architects and Urban Planners**: practitioners designing localized public spaces, parks, and boulevards.
 4. **City Researchers and Citizens**: open data advocates and eco-initiatives interested in microclimate and air comfort.
@@ -35,10 +34,10 @@ Current municipal planning in Astana lacks automated, data-driven decision suppo
 
 ## 5. Aim and Objectives
 
-### Aim (Цель проекта)
+### Aim
 To design and develop an intelligent geographic information platform capable of ingesting multi-spectral satellite imagery, modeling urban thermal dynamics using machine learning, assessing ecological connectivity via graph theory, and generating optimized spatial allocations for green-blue infrastructure to mitigate the Urban Heat Island effect in Astana.
 
-### Objectives (Задачи проекта)
+### Objectives
 1. **Data Pipeline**: Build an automated data ingestion pipeline for multi-spectral satellite imagery (Landsat 8/9, Sentinel-2) and compute key remote sensing indices (LST, NDVI, NDWI, NDBI).
 2. **Predictive Modeling**: Train and validate supervised machine learning models (Gradient Boosting / Random Forest) to predict Land Surface Temperature (LST) based on urban density, vegetation, and surface properties.
 3. **Graph-Based Spatial Modeling**: Model Astana's green and blue network as a spatial graph to compute ecological connectivity and accessibility metrics.
@@ -58,14 +57,14 @@ To design and develop an intelligent geographic information platform capable of 
 
 ## 7. Project Scope
 
-### In Scope (Включено в проект)
+### In Scope
 - Geographical boundary: Astana city urbanized area and immediate suburban green belt.
 - Temporal satellite imagery: Multi-spectral summer scenes (June–August, 2019–2026) with cloud cover $< 10\%$.
 - Remote sensing indices: LST (Land Surface Temperature), NDVI (Vegetation), NDWI (Water), NDBI (Built-up).
 - Predictive models: XGBoost, LightGBM, Random Forest, Spatial Regression.
 - Web dashboard with interactive layers and scenario simulation.
 
-### Out of Scope (Вне рамок проекта)
+### Out of Scope
 - 3D computational fluid dynamics (CFD) wind-tunnel simulations (e.g., building-level turbulence).
 - Real-time IoT sensor network deployment across city streets (satellite-driven and open meteo station data used instead).
 - Autonomous legal issuance of construction permits (system provides advisory recommendations only).

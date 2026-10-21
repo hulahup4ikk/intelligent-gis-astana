@@ -9,9 +9,9 @@
 ## 1. Project Management Infrastructure
 
 ### YouTrack Project Setup
-- **Project Name**: `GBI-UHI-Astana`
+- **Project Name**: `GBI-UHI Astana`
 - **Project ID**: `DIP`
-- **Instance URL**: `https://astanait.myjetbrains.com/youtrack/projects/DIP`
+- **Instance URL**: `https://gbi-uhi-astana.youtrack.cloud/projects/DIP`
 - **Board Configuration**: Agile Kanban board featuring columns:
   `Backlog` $\rightarrow$ `Ready for Dev` $\rightarrow$ `In Progress` $\rightarrow$ `Code Review (PR)` $\rightarrow$ `Done / Verified`
 - **Traceability Policy**: Every meaningful unit of work has an associated ticket (`DIP-XX`). Commits, pull requests, and documentation references must explicitly include the ticket ID.
